@@ -1,92 +1,94 @@
-DevMate is an AI-powered voice assistant designed to enhance productivity by enabling quick access to information and resources through voice commands. Built with React, DevMate integrates speech recognition and synthesis to provide a seamless user experience.
+# DevMate
 
-Features
-Voice Commands: Execute tasks such as opening websites and retrieving information using intuitive voice inputs.
+![DevMate Logo](./assets/ai-human.avif)
 
-Speech Recognition: Utilizes the Web Speech API to convert speech into text.
+DevMate is an AI-powered voice assistant designed to enhance productivity by enabling quick access to information and resources through voice commands. Built with React and Electron, DevMate integrates speech recognition and synthesis to provide a seamless user experience.
 
-Speech Synthesis: Responds to user queries with synthesized speech for an interactive experience.
+## Features
 
-Installation
+- **Voice Commands**: Execute tasks such as opening websites, applications, and retrieving information using intuitive voice inputs.
+- **Speech Recognition**: Utilizes the Web Speech API to convert speech into text.
+- **Speech Synthesis**: Responds to user queries with synthesized speech for an interactive experience.
+- **Electron Integration**: Allows interaction with system-level applications like Notepad.
+
+## Installation
+
 To set up DevMate locally:
 
-Clone the Repository:
+1. **Clone the Repository**:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/devmate.git
-Navigate to the Project Directory:
+    ```bash
+    git clone https://github.com/your-username/devmate.git
+    ```
 
-bash
-Copy
-Edit
-cd devmate
-Install Dependencies:
+2. **Navigate to the Project Directory**:
 
-bash
-Copy
-Edit
-npm install
-Start the Application:
+    ```bash
+    cd devmate
+    ```
 
-bash
-Copy
-Edit
-npm start
-Usage
-Start Listening: Click the "Start Listening" button to activate voice recognition.
+3. **Install Dependencies**:
 
-Issue Commands: Speak commands like "Open GitHub" or ask questions such as "What is your name?".
+    ```bash
+    npm install
+    ```
 
-Receive Responses: DevMate will process the command and respond accordingly, either by opening the specified resource or providing a verbal response.
+4. **Start the Application**:
 
-Supported Commands
-Opening Websites: Say "Open [website name]" to open specific websites. Supported sites include:
+    ```bash
+    npm start
+    ```
 
-LeetCode
+## Usage
 
-GeeksforGeeks
+1. **Start Listening**: Click the "Start Listening" button to activate voice recognition.
+2. **Issue Commands**: Speak commands like "Open GitHub" or ask questions such as "What is your name?".
+3. **Receive Responses**: DevMate will process the command and respond accordingly, either by opening the specified resource or providing a verbal response.
 
-Codeforces
+## Supported Commands
 
-CodeChef
+- **Opening Websites**: Say "Open [website name]" to open specific websites. Supported sites include:
+    - LeetCode
+    - GeeksforGeeks
+    - Codeforces
+    - CodeChef
+    - GitHub
+- **Opening Applications**: Say "Open Notepad" to launch Notepad on your system.
+- **General Queries**: Ask questions like:
+    - "What is your name?"
+    - "Hello DevMate"
+    - "What can you do for me?"
 
-GitHub
+## Contributing
 
-General Queries: Ask questions like:
-
-"What is your name?"
-
-"Hello DevMate"
-
-"What can you do for me?"
-
-Contributing
 Contributions are welcome! To contribute:
 
-Fork the repository.
+1. **Fork the repository**.
+2. **Create a new branch**:
 
-Create a new branch:
+    ```bash
+    git checkout -b feature-name
+    ```
 
-bash
-Copy
-Edit
-git checkout -b feature-name
-Make your changes and commit them:
+3. **Make your changes and commit them**:
 
-bash
-Copy
-Edit
-git commit -m "Description of changes"
-Push to the branch:
+    ```bash
+    git commit -m "Description of changes"
+    ```
 
-bash
-Copy
-Edit
-git push origin feature-name
-Open a pull request detailing your changes.
+4. **Push to the branch**:
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+    ```bash
+    git push origin feature-name
+    ```
+
+5. **Open a pull request** detailing your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+
+---
+
+*Note: Replace placeholders like `your-username` with your actual GitHub username and ensure that the paths to images and links are correct relative to your project structure.*
 
