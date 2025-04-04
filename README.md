@@ -1,6 +1,6 @@
 # DevMate
 
-![DevMate Logo](./assets/ai-human.avif)
+![image](https://github.com/user-attachments/assets/902da3d6-b14c-403b-9109-890b505ee052)
 
 DevMate is an AI-powered voice assistant designed to enhance productivity by enabling quick access to information and resources through voice commands. Built with React and Electron, DevMate integrates speech recognition and synthesis to provide a seamless user experience.
 
@@ -90,5 +90,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-*Note: Replace placeholders like `your-username` with your actual GitHub username and ensure that the paths to images and links are correct relative to your project structure.*
-
+*Note: Replace placeholders like `your-username` with your actual GitHub username.
