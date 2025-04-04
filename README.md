@@ -1,15 +1,16 @@
 # DevMate
 
-![image](https://github.com/user-attachments/assets/902da3d6-b14c-403b-9109-890b505ee052)
+![image](https://github.com/user-attachments/assets/0a3df796-65c9-43aa-a577-1a4f0021ea76)
 
-DevMate is an AI-powered voice assistant designed to enhance productivity by enabling quick access to information and resources through voice commands. Built with React and Electron, DevMate integrates speech recognition and synthesis to provide a seamless user experience.
+
+DevMate is an AI-powered voice assistant designed to enhance productivity by enabling quick access to information and resources through voice commands. Built with React, DevMate integrates speech recognition and synthesis to provide a seamless user experience.
 
 ## Features
 
 - **Voice Commands**: Execute tasks such as opening websites, applications, and retrieving information using intuitive voice inputs.
 - **Speech Recognition**: Utilizes the Web Speech API to convert speech into text.
 - **Speech Synthesis**: Responds to user queries with synthesized speech for an interactive experience.
-- **Electron Integration**: Allows interaction with system-level applications like Notepad.
+
 
 ## Installation
 
