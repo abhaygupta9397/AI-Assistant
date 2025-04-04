@@ -1,16 +1,92 @@
-<<<<<<< HEAD
-# React + Vite
+DevMate is an AI-powered voice assistant designed to enhance productivity by enabling quick access to information and resources through voice commands. Built with React, DevMate integrates speech recognition and synthesis to provide a seamless user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Voice Commands: Execute tasks such as opening websites and retrieving information using intuitive voice inputs.
 
-Currently, two official plugins are available:
+Speech Recognition: Utilizes the Web Speech API to convert speech into text.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Speech Synthesis: Responds to user queries with synthesized speech for an interactive experience.
 
-## Expanding the ESLint configuration
+Installation
+To set up DevMate locally:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# AI-Assistant
->>>>>>> 1a9b89c0e2dc09ee75bd74ac51e421381108ba67
+Clone the Repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/devmate.git
+Navigate to the Project Directory:
+
+bash
+Copy
+Edit
+cd devmate
+Install Dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the Application:
+
+bash
+Copy
+Edit
+npm start
+Usage
+Start Listening: Click the "Start Listening" button to activate voice recognition.
+
+Issue Commands: Speak commands like "Open GitHub" or ask questions such as "What is your name?".
+
+Receive Responses: DevMate will process the command and respond accordingly, either by opening the specified resource or providing a verbal response.
+
+Supported Commands
+Opening Websites: Say "Open [website name]" to open specific websites. Supported sites include:
+
+LeetCode
+
+GeeksforGeeks
+
+Codeforces
+
+CodeChef
+
+GitHub
+
+General Queries: Ask questions like:
+
+"What is your name?"
+
+"Hello DevMate"
+
+"What can you do for me?"
+
+Contributing
+Contributions are welcome! To contribute:
+
+Fork the repository.
+
+Create a new branch:
+
+bash
+Copy
+Edit
+git checkout -b feature-name
+Make your changes and commit them:
+
+bash
+Copy
+Edit
+git commit -m "Description of changes"
+Push to the branch:
+
+bash
+Copy
+Edit
+git push origin feature-name
+Open a pull request detailing your changes.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
